@@ -12,5 +12,5 @@ function insert_Row() {
 	newRow.append(newCol1);
 	newRow.append(newCol2);
 
-	table.prepend(newRow);
+	table.querySelector("tbody").prepend(newRow);
 }
